@@ -1,0 +1,694 @@
+ /* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+
+NOTE--------------
+------------------------------IMAGES FROM UNSPLASH.COM--------------------------
+
+*/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Parisienne&family=Pinyon+Script&display=swap');
+
+
+/* Unique Reflections  H1 Section */
+
+
+#UR h1 { font-size: 10rem ; color: whitesmoke; font-family: 'Pinyon Script', cursive; text-align: center; padding-top: 30px; letter-spacing: 7px;}
+#UR { position: relative;}
+
+@media only screen and (max-width: 1224px) {#UR h1 { font-size: 8rem ; letter-spacing: 6px;} }
+
+@media only screen and (max-width: 1025px) {#UR h1 { font-size: 6rem ; letter-spacing: 5px;} }
+
+@media only screen and (max-width: 800px) {#UR h1 { /* font-size: 4rem ; */ letter-spacing: 4px;} }
+
+@media only screen and (max-width: 650px) {#UR h1 { /* font-size: 3rem ; */ letter-spacing: 3px;} }
+
+@media only screen and (max-width: 450px) {#UR h1 { /* font-size: 3rem ; */ letter-spacing: 1px;} }
+
+
+
+
+
+  
+*{
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body { min-height: 100vh; background-color: black; min-width: fit-content;}
+
+
+
+img { display: flex; }
+
+
+
+
+
+/*  Header section */
+
+
+  .navigation   { font-size: larger; margin-top: 20px ; }
+
+  .navigation ul  {list-style: none; display: flex; justify-content: space-around; border-bottom: 1px solid whitesmoke; align-items: center; padding-bottom: 20px;}
+
+  .mainlogo { 
+  
+    width: 150px;
+    min-height: auto;
+    border-radius: 50%;
+    height: auto;
+    
+    ;}
+
+  .navigation li a {font-size: 2.5rem ; color: whitesmoke; text-decoration: none;}
+
+  .navigation li a:hover { color: rgb(241, 132, 7); text-decoration: underline; /* font-size: 3rem; */}
+
+header { width: 100%; height: auto; overflow: hidden;
+    ;}
+
+
+@media only screen and (max-width: 1224px) {.navigation li a { font-size: 2rem ; } .mainlogo {width: 120px;}}
+
+@media only screen and (max-width: 849px) {.navigation li a { font-size: 1.5rem ;} .mainlogo {width: 125px;} .navigation li a:hover {font-size: 2rem;} }
+
+@media only screen and (max-width: 800px) {.navigation li a { font-size: 1.5rem ;} .mainlogo {width: 125px;} }
+
+@media only screen and (max-width: 650px) {.navigation li a { font-size: 1.5rem ; text-decoration: underline;} .mainlogo {width: 100px;} .navigation li a:hover {font-size: 1.3rem;} }
+
+@media only screen and (max-width: 550px) {.navigation li a { font-size: 1.25rem ;} .mainlogo {width: 100px;} }
+
+@media only screen and (max-width: 475px) {.navigation li a { font-size: 1rem ;} .mainlogo {width: 100px;} .navigation li a:hover {font-size: 1rem;} }
+
+@media only screen and (max-width: 455px) {.navigation li a { font-size: .85rem ;} .mainlogo {width: 50px;} .navigation li a:hover {font-size: 1rem;} }
+
+@media only screen and (max-width: 300px) {.navigation li a { font-size: .75rem ;} .mainlogo {width: 50px;} .navigation li a:hover {font-size: .21rem;} }
+
+
+
+
+
+    /* Barbershop picture  Section */
+
+  .mainpic{ width: 100%}
+
+  .mainpic img { width: 100%; height: auto; padding-bottom: 20px;}
+
+
+
+
+  /* Styled Section/ Barbers/ cuts/ prices etc */
+
+.flexcontainer {
+  display: flex;
+ /*  justify-content: space-between; */
+  max-width: 2000px ;
+}
+
+section.style { display: flex; width: 100%; justify-content: space-between; box-sizing: border-box;}
+
+figure.one {    
+  width: 33%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  border: 1px solid white;
+  margin: 0px 20px 20px 20px;}
+
+  figure.two {    
+    width: 33%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border: 1px solid white;
+    margin: 0px 20px 20px 20px;}
+
+    figure.three {    
+      width: 33%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 2px;
+      border: 1px solid white;
+      margin: 0px 20px 20px 20px;}
+
+    .style img {     
+      width: 100%;
+      height: auto;
+      display: block
+      }
+
+    .title ul   {
+       /* list-style: none; */ 
+       display: flex; 
+       justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .title a {
+         color: whitesmoke;
+        text-decoration: none; 
+        font-family: Abril+Fatface; 
+        font-size: 4rem; 
+        margin-right: 0px;
+
+      }
+      .title a:hover{
+        color: rgb(60, 255, 0);
+      }
+
+      .flexmobile {display: none;}
+
+
+      @media only screen and (max-width: 1224px) {
+        .title a { font-size: 3rem ; }
+       }
+
+        @media only screen and (max-width: 1000px) {
+          .title a { font-size: 2rem ; } }
+
+        
+
+          @media only screen and (max-width: 760px) {
+
+            .title {display: none;}
+            .flexcontainer {display: none;}
+            .flexmobile { 
+              display: flex; 
+              flex-flow: column; 
+              width: 90%;
+              margin: auto;
+            }
+            figure.one {
+             width: 100%;
+             height: auto;
+             border: 5px solid white;
+             flex-flow: column; 
+             margin: auto;
+            }
+            figure.one img{
+                
+              height: auto;
+              width: auto;
+              width: 75%;
+              justify-content: center;
+              align-content: center;
+              margin: auto;
+            }
+            figure.two {
+             width: 100%;
+             height: auto;
+             border: 5px solid white;
+             flex-flow: column;
+             margin: auto; 
+            }
+            figure.two img{
+                
+              height: auto;
+              width: auto;
+              width: 75%;
+              justify-content: center;
+              align-content: center;
+              margin: auto;
+            }
+            figure.three {
+             width: 100%;
+             height: auto;
+             border: 5px solid white;
+             flex-flow: column; 
+             margin: auto;
+            }
+            figure.three img{
+                
+              height: auto;
+              width: auto;
+              width: 75%;
+              justify-content: center;
+              align-content: center;
+              margin: auto;
+            }
+          }
+
+         /*  @media only screen and (max-width: 700px) {
+            .title a { font-size: 1.5rem ; }
+             }
+
+            @media only screen and (max-width: 500px) {
+              .title a { font-size: 1rem ; } }
+
+              @media only screen and (max-width: 300px) {
+                .title a { font-size: .75rem ; } } */
+    
+  
+
+      /* Barbers Page HTML */
+
+      barbers.html {max-width: 1920px;}
+      .barberspage {
+        display: flex; 
+        flex-wrap: wrap;
+        width: 100%;
+        
+      }
+    
+     /*  .barberspage2 {
+        display: flex; 
+        flex-wrap: wrap;
+      } */
+
+      .ownertitle h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+      }
+
+      h2 { 
+        color:aliceblue; 
+        font-size: 5rem; 
+        text-align: center; 
+        text-decoration: underline aliceblue;
+         margin-top: 2.5rem; 
+         margin-bottom: 2.5rem;
+         display: block;
+        }
+
+
+      h3 {
+        color: whitesmoke;
+         font-size: 2rem; 
+         text-align: center; 
+         /* background-color: rgb(121, 118, 118); */
+
+        }
+
+        h4 {
+          color:aliceblue;
+         font-size: 1rem; 
+         text-align: center; 
+        }
+
+
+        h4 a {
+          color: aliceblue;
+        }
+
+        h4 a:hover { 
+          color: blue;
+           font-size: 1.25rem;
+          }
+
+        
+
+       
+
+
+       /* OWNER SECTION of Barber HTML */
+
+      .owners {
+        display: flex; 
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        min-width: 33%;
+        margin-bottom: 50px;
+        background-image: url(images/Barbershop1920x1280.jpg) ;
+        padding-top: 5rem;
+        }
+
+        .owners img { 
+          display:flex; 
+          width: 100%; 
+          height: auto; 
+          min-width: 10%;
+        border: whitesmoke solid;}
+
+        
+        @media only screen and (max-width: 770px) {
+          
+          .owners { 
+             flex-flow: column ; 
+             padding-top: 1rem;
+             margin-bottom: 0px; 
+             padding-top: 2rem;
+             margin-bottom: 0px;
+             row-gap: 2rem;
+             padding-bottom: 2rem;} }
+
+
+       /*  MASTER BARBER SECTION of Barber HTML*/
+
+        .masterbarbers
+        { 
+          display: flex;
+          box-sizing: border-box;
+          max-width: 1920px;
+          justify-content: space-around;
+          margin-bottom: 3rem;
+          margin-top: 2rem;
+          background-image: url(images/Barbershop1920x1280.jpg) ;
+          padding-top: 5rem;
+          padding-bottom: 3rem;
+        }
+
+        figure.barber2  { 
+          /* display: flex; */
+           width:20%; 
+           justify-content: space-between; 
+           /* padding: 1rem; 
+           border:  whitesmoke solid; */
+           flex-wrap: wrap;
+          }
+
+          /* h3 h4 figure.barber2  {text-align: center;} */
+          h3.mb {text-align: center;}
+          h4.mb { text-align: center;}
+
+       figure.barber3  {
+        /* display: flex; */
+         width:20%; 
+         height: auto;
+         justify-content: space-between;
+          /* padding: 1rem; 
+          border:  whitesmoke solid; */
+          flex-wrap: wrap;
+        }
+        
+        figure.barber5  {
+          /* display: flex; */
+           width:20%; 
+           justify-content: space-between; 
+           /* padding: 1rem; 
+           border:  whitesmoke solid; */
+           flex-wrap: wrap;
+          }
+
+       figure.barber6  {
+       /*  display: flex; */
+         width:20%; 
+         justify-content: space-between;
+         /*  padding: 1rem;
+           border:  whitesmoke solid; */
+           flex-wrap: wrap;
+          }
+
+
+       .barber2 img {
+          display: flex; 
+          width: 100%;
+           height: auto;
+           padding: 1rem;
+           border:  whitesmoke solid;
+          }
+
+       .barber3 img { 
+         display: flex; 
+         width: 100%; 
+         height: auto;
+         padding:  0.5rem 0.5rem 15%;
+         border:  whitesmoke solid;
+        }
+
+       .barber5 img {  
+        display: flex; 
+        width: 100%;
+         height: auto;
+         padding: 1rem;
+         border:  whitesmoke solid;
+        }
+
+       .barber6 img {  
+        display: flex; 
+        width: 100%; 
+        height: auto;
+        padding: 1rem;
+        border:  whitesmoke solid;
+      }
+
+      .barbercontact ul {list-style: none; display: flex; justify-content: space-around; border-bottom: 1px solid whitesmoke; /* align-items: center; */ padding-bottom: 20px; color: whitesmoke; padding-top: 1rem;}
+
+      .barbercontact li {font-size: 2rem;}
+
+
+      @media only screen and (max-width: 770px) {
+         .masterbarbers {   
+          flex-flow: column;
+          align-items: center;
+          width: 100%; 
+          row-gap: 3.5rem; }
+
+          figure.barber2  { width: 100%; }
+          figure.barber3 {width: 100%; }
+          figure.barber5 {width: 100%; }
+          figure.barber6 {width: 100%; }
+          
+          h3 {font-size: 3rem;}
+          h4  {font-size: 2rem;}
+          h4 a { font-size: 2rem;}
+          h2 { font-size: 5rem;}
+    }
+
+
+
+
+
+      @media only screen and (max-width: 1224px) {}
+      @media only screen and (max-width: 1224px) {}
+      @media only screen and (max-width: 1224px) {}
+      @media only screen and (max-width: 1224px) {}
+
+     /* Search bar for trial purpose only */
+
+     .search {
+      background-color: antiquewhite;
+     }
+
+      /* FOOTER SECTION MAIN PAGE */
+
+      footer {
+        
+        /* max-width: 1920px; */ 
+        
+        margin-top: 50px;;
+      }
+      .footerflex {
+        display: flex;
+        width: 100%; 
+        max-height: 100px;
+        justify-content: space-between;
+        border-top: whitesmoke 1px solid;
+        align-items: center;
+      }
+
+      img.footerlogo  {max-width: 70px ; border-radius: 90%;}
+      .design h4 { display: flex; flex-wrap: nowrap; font-size: .7rem; align-items: center; align-content: center;}
+
+
+      /* About us html */
+
+      body.about {
+        background-image: url(images/babyliss640x800.jpg) ; 
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* .about #ur h1 {color: darkorange;} */
+
+
+       /* Styles page */
+
+       .flexcontainerstyle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+    }
+
+    .stylespage {
+        flex-basis: calc(33.33% - 20px); 
+        margin: 10px;
+    }
+
+    .stylespage img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .stylespage {
+            flex-basis: calc(50% - 20px); 
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .stylespage {
+            flex-basis: calc(100% - 20px);
+        }
+      } 
+
+      /* Price list PAGE/LINK */
+
+     /* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .navigation ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navigation li {
+      margin-bottom: 10px;
+  }
+
+  .mainlogo {
+      width: 120px; /* Adjust as needed */
+  }
+
+  h1 {
+      font-size: 3rem; /* Adjust as needed */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navigation li a {
+      font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  .mainlogo {
+      width: 100px; /* Adjust as needed */
+  }
+
+  h1 {
+      font-size: 2rem; /* Adjust as needed */
+  }
+}
+
+
+
+
+/* LATEST */
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.prices {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align items with space between */
+  flex-wrap: wrap; /* Allow flex items to wrap */
+}
+
+.price-item {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  margin-bottom: 10px;
+  width: 100%; /* Adjust width to fit two items in a row */
+  font-size: 2.5rem;
+}
+
+.haircut {
+  flex: 1; /* Take up remaining space */
+  text-align: left; /* Align text to left */
+  font-size: 2.5rem;
+}
+
+.price {
+  flex: 1; /* Take up remaining space */
+  text-align: right; /* Align text to right */
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .prices {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .price-item {
+      width: 100%; /* Take full width on smaller screens */
+  }
+
+  .haircut, .price {
+      text-align: center;
+  }
+}
+
+
+
+
+
+/*  */
+
+/* #image-display {
+  display: none; 
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin: 100px 100px;
+}
+
+#image-display img {
+  max-width: 300px;
+  max-height: 300px;
+  border: 3px solid whitesmoke;
+  padding: 0px;
+}
+*/
+
+#image-display {
+  display: none;
+  position: absolute;
+  right: calc(100% + 20px); /* Position 20px to the left of the "prices" div */
+  top: 0;
+  z-index: 1;
+}
+
+#image-display img {
+  max-width: 300px;
+  max-height: 300px;
+  border: 3px solid whitesmoke;
+  padding: 0px;
+}
